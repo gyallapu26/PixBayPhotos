@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PixbayPhotos</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="search_for_images">Search for images</string>
+    <string name="image_details">Image details</string>
+    <string name="title_activity_image_details_activiy">ImageDetailsActiviy</string>
+    <string name="string_confirmation">Confirmation</string>
+    <string name="string_confirmation_message">Are you sure you want to check out more details?</string>
+    <string name="string_yes">Yes</string>
+    <string name="string_error_message">Something went wrong while fetching</string>
+    <string name="string_retry">Retry</string>
+</resources>

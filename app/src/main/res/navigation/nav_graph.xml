@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/ListFragment">
+
+    <fragment
+        android:id="@+id/ListFragment"
+        android:name="com.example.pixbayphotos.ui.ListFragment"
+        android:label="@string/search_for_images"
+        tools:layout="@layout/fragment_list">
+
+        <action
+            android:id="@+id/action_ListFragment_to_DetailsFragment"
+            app:destination="@id/DetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.example.pixbayphotos.ui.DetailsFragment"
+        android:label="@string/image_details"
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="image"
+            app:argType="com.example.pixbayphotos.models.Image" />
+    </fragment>
+</navigation>
